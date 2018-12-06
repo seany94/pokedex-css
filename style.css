@@ -9,7 +9,7 @@ header{
 }
 
 img{
-	background-color: #D3D3D3;
+	background-color: rgba(242,242,242);
 	display: inline-block;
 	float: left;
 	margin: 10px;
@@ -31,7 +31,7 @@ p{
 
 .table-stats{
 	display: inline-block;
-	background-color: #62A0FEFF;
+	background-color: rgb(56,168,213);
 	word-spacing: 180px;
 	padding: 20px 0 20px 30px;
 	border-radius: 10px;
@@ -62,7 +62,7 @@ span{
 
 #grass{
 	display: inline;
-	background-color: #77FF2AFF;
+	background-color: rgb(156,202,88);
 	color: #FAFFFEDB;
 	border-radius: 5px;
 	padding: 5px 50px;
@@ -70,7 +70,7 @@ span{
 
 #poison{
 	display: inline;
-	background-color: #B32DAEFF;
+	background-color: rgb(184,129,199);
 	color: #FAFFFEDB;
 	border-radius: 5px;
 	padding: 5px 50px;
