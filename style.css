@@ -1,0 +1,81 @@
+body{
+	background-image: url("images/poke-background.png");
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+header{
+	text-align: center;
+	font-size: 40px;
+}
+
+img{
+	background-color: #D3D3D3;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+p{
+	font-size: 18px;
+	margin-bottom: 70px;
+}
+
+/*.stats{
+	display: inline-block;
+	background-color: #62A0FEFF;
+	word-spacing: 180px;
+	padding: 20px 0 20px 30px;
+	border-radius: 10px;
+}*/
+
+.table-stats{
+	display: inline-block;
+	background-color: #62A0FEFF;
+	word-spacing: 180px;
+	padding: 20px 0 20px 30px;
+	border-radius: 10px;
+}
+
+td {
+  padding: 0 50px 0 150px;
+  height: 30px;
+}
+
+td:first-child {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+td:not(:first-child) {
+  padding-right: 80px;
+}
+
+span{
+	color: #FAFFFEDB;
+	font-weight: lighter;
+}
+
+.type{
+	display: inline-block;
+	margin-top: 20px;
+}
+
+#grass{
+	display: inline;
+	background-color: #77FF2AFF;
+	color: #FAFFFEDB;
+	border-radius: 5px;
+	padding: 5px 50px;
+}
+
+#poison{
+	display: inline;
+	background-color: #B32DAEFF;
+	color: #FAFFFEDB;
+	border-radius: 5px;
+	padding: 5px 50px;
+}
+
+.block{
+	display: block;
+}
